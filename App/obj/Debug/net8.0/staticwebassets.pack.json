@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\App.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\hero-img.png",
+      "PackagePath": "staticwebassets\\Images\\hero-img.png"
+    },
+    {
       "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\man.png",
       "PackagePath": "staticwebassets\\Images\\man.png"
     },
@@ -251,6 +255,10 @@
     {
       "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.Microsoft.AspNetCore.StaticWebAssets.props",

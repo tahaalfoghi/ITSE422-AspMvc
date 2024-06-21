@@ -1,6 +1,6 @@
 @model List<Profile>
 
-<h1 class="text-center mb-5">Group Members</h1>
+<h1 class="text-center mb-5">اعضاء الفريق</h1>
 <div class="card-container">
 @foreach(var profile in Model)
 {
@@ -11,14 +11,14 @@
                 <img src="Images/man.png" alt="">
             }
             else{
-                <img src="Images/woman.png" alt="">
+                <img src="Images/woman (1).png" alt="">
             }
         </div>
         <div class="card__name">
             <h2>@profile.FullName</h2>
         </div>
         <div class="card__job">
-            <span>@profile.Age years old</span>
+            <span>@profile.Age سنة</span>
         </div>
         <div class="card__job">
             <h4>@profile.Address</h4>

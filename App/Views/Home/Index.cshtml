@@ -1,8 +1,19 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+﻿
+<main class="main">
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Asp.Net Core MVC Personal Information App</h1>
+            <p>The project implemented using <b>asp.net core mvc</b> , it showcases a simple web application that display personal information (name, age , address) for the <b>3 members of the group</b> <b>using MVC pattern</b></p>
+            <div class="d-flex">
+              <a asp-controller="Profile" asp-action="Index" class="btn btn-primary">الذهاب الى اعضاء الفريق</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="Images/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+   

@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 var constr = builder.Configuration.GetConnectionString("constr");
 
 // this is the mysql connection to the asp.net core mvc application
-// class in ASP.NET Core serves as the bridge between the application and the database.
+// AppDbContext class in ASP.NET Core serves as the bridge between the application and the database.
 // It is a derived class from DbContext provided by Entity Framework Core (ORM)
 // The AppDbContext class is used to configure the database connection and settings.
 builder.Services.AddDbContext<AppDbContext>(op=> 
