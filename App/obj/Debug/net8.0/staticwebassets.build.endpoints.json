@@ -86,6 +86,34 @@
       "EndpointProperties": []
     },
     {
+      "Route": "Images/woman (1).png",
+      "AssetFile": "Images/woman (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RYd514IjpL0kcIPdxcML07VyZnLTG6+5AABN9zaSQuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Jun 2024 15:11:35 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
       "Route": "Images/woman.png",
       "AssetFile": "Images/woman.png",
       "Selectors": [],

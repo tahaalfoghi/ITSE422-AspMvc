@@ -30,6 +30,12 @@
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"33392"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00225sWFy\u002BLCjS60YZ6Ans5IQW4jLJb9CHULogwBqGc6iV8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Jun 2024 14:24:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/App/Images/woman (1).png">
+      <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\woman (1).png))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"38218"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022RYd514IjpL0kcIPdxcML07VyZnLTG6\u002B5AABN9zaSQuE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Jun 2024 15:11:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/App/Images/woman.png">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\woman.png))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

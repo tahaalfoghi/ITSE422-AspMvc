@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fCiybrp9NZjrmz/DMkNMm+QJqSbLGQL1bP19B+xLij0=",
+  "Hash": "I/I+sVP9BZza+ahzkZ2IvTMVQ/skr1jpl9jI5QPo280=",
   "Source": "App",
   "BasePath": "_content/App",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\man.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\woman (1).png",
+      "SourceId": "App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\",
+      "BasePath": "_content/App",
+      "RelativePath": "Images/woman (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hprkqxcuxk",
+      "Integrity": "RYd514IjpL0kcIPdxcML07VyZnLTG6+5AABN9zaSQuE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\woman (1).png"
     },
     {
       "Identity": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\woman.png",
@@ -1547,6 +1568,34 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Jun 2024 14:24:16 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "Images/woman (1).png",
+      "AssetFile": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\woman (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RYd514IjpL0kcIPdxcML07VyZnLTG6+5AABN9zaSQuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Jun 2024 15:11:35 GMT"
         }
       ],
       "EndpointProperties": []

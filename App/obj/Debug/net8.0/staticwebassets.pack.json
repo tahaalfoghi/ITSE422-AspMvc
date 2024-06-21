@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Images\\man.png"
     },
     {
+      "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\woman (1).png",
+      "PackagePath": "staticwebassets\\Images\\woman (1).png"
+    },
+    {
       "Id": "C:\\Users\\HP\\OneDrive\\Desktop\\ITSE422-AspMvc\\app\\wwwroot\\Images\\woman.png",
       "PackagePath": "staticwebassets\\Images\\woman.png"
     },
