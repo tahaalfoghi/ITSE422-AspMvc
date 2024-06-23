@@ -18,12 +18,9 @@ namespace App.Migrations
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.6")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.6").HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
-
             modelBuilder.Entity("App.Models.Profile", b =>
                 {
                     b.Property<int>("Id")
@@ -42,7 +39,10 @@ namespace App.Migrations
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("longtext");
-
+                    
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("longtext");
                     b.HasKey("Id");
 
                     b.ToTable("profiles");

@@ -25,6 +25,7 @@ namespace App.Migrations
                     Age = table.Column<int>(type: "int", nullable: false),
                     Address = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
+                    
                 },
                 constraints: table =>
                 {
